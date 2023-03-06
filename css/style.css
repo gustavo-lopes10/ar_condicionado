@@ -1,0 +1,451 @@
+@charset "UTF-8";
+
+/* ######## COMEÇO DO MENU ########### */
+.topo{
+    background-color: #fff;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.logo{
+    width: 15vw;
+    margin-left: 50px;
+}
+
+.topo ul{
+    list-style: none;
+    padding: 0;
+    margin-right: 300px;
+}
+
+.topo ul li{
+    display: inline;
+}
+
+.topo ul li a{
+    font-size: 15pt;
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    float: right;
+}
+
+.topo ul li a:hover{
+    border: 2px solid black;
+}
+
+/* ######## FIM DO MENU ########### */
+
+/* COMEÇO DO GERAL  */
+body{
+    cursor: url(../img/cursor.cur), default;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.imagem{
+    height: 60vh;
+    width: 50vw;
+    margin-left: 50px;
+}
+
+.em_linha{
+    display: flex;
+}
+  
+.em_linha_sobre{
+    width: 75vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.icone_texto{
+    display: block;
+    width: 30%;
+    margin: auto;
+}
+
+.icone_titulo{
+    display: block;
+    margin: auto;
+    width: 15%;
+}
+
+.icone_titulo_sobre{
+    display: block;
+    width: 23%;
+    margin: auto;
+}
+
+.vertical{
+   margin-top: auto;
+   margin-bottom: auto;
+}
+
+.visao_valores{
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding-top: 50px;
+    background: url('../img/fundo.png');
+    width: 100%;
+    height: 20vh;
+}
+
+.visao_valores img{
+   border: 1px solid rgb(78, 78, 78);
+   width: 20%;
+}
+
+.visao_valores p{
+   color: #fff;
+   font-size: 15pt;
+ }
+
+ .texto{
+    font-size: 15pt;
+    padding: 0px 30px;
+    color: rgb(83, 83, 83);
+ }
+
+ .linha_servicos{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ .fotos img{
+    padding-left: 10px;
+    width: 12vw;
+ }
+ 
+ .texto_sobre{
+    font-size: 20pt;
+    padding: 0px 60px;
+    text-align: center;
+    color: rgb(145, 143, 143);
+ }
+
+ .em_linha_sobre{
+    display: flex;
+}
+
+.logo_sobre{
+    width: 30vw;
+}
+/* FIM DO GERAL  */
+
+/* ######## COMEÇO DE PRODUTOS AO PASSAR O MOUSE ########### */
+.titulo{
+    color: rgb(85, 85, 85);
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.linha{
+    display: flex;
+    justify-content: space-around;
+}
+
+.linha div{
+    padding: 10px;
+}
+
+.linha div img{
+    border-radius: 10px;
+}
+
+.w50{
+    width: 50%;
+    margin: 20px auto;
+}
+
+.w75{
+    width: 75%;
+    margin: 20px auto;
+}
+
+.w100{
+    width: 100%;
+    margin: 20px auto;
+}
+/* ######## FIM DE PRODUTOS AO PASSAR O MOUSE ########### */
+
+/* ######## COMEÇO DE PRODUTOS ########### */
+.titulo_produto{
+    font-size: 20pt;
+    width: 100%;
+    text-align: center;
+    color: #fff;
+    background-color: rgb(29, 96, 134);
+}
+
+.produto_bloco img{
+    display: block;
+    width: 50%;
+    height: 50vh;
+    border-radius: 10px;
+    border: 1px solid black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.texto_produto{
+    font-size: 15pt;
+    padding: 50px 30px 0px 30px;
+    color: rgb(83, 83, 83);
+ }
+
+.preco{
+    font-size: 15pt;
+    padding: 50px 30px 0px 30px;
+    color: rgb(83, 83, 83);
+}
+
+.botao_produto{
+    margin: 30px 0px 30px 200px;
+    padding: 15px;
+    border: 1px solid rgb(146, 146, 146);
+    background-color: rgb(29, 96, 134);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13pt;
+    transition: 0.5s;
+}
+
+.botao_produto:hover{
+    background-color: rgb(192, 5, 36);
+}
+/* ######## FIM DE PRODUTOS ########### */
+
+/* ######## COMEÇO DO FOOTER ########### */
+.espaco{
+    display: block;
+    width: 30vw;
+    border: 1px solid rgb(29, 96, 134);
+    border-radius: 10px;
+    padding: 0px 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.imagem_contato{
+    width: 55vw;
+    height: 60vh;
+}
+
+.em_linha_contato{
+    text-align: center;
+    margin-top: 20px;
+}
+
+input{
+    border: 0 none;
+    outline: 0;
+}
+
+.input{
+    text-align: left;
+}
+
+.botao{
+    margin:  30px 0px;
+    padding: 15px;
+    border: 1px solid rgb(146, 146, 146);
+    background-color: rgb(29, 96, 134);
+    color: #fff;
+    border-radius: 5px;
+    font-size: 13pt;
+    transition: 0.5s;
+}
+
+.botao:hover{
+    background-color: rgb(192, 5, 36);
+}
+
+.linha_icones{
+    text-align: right;
+}
+
+.icone{
+    width: 7%;
+    padding: 10px;
+    margin-right: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.seta{
+    padding: 15px 15px 10px 15px;
+    background-color: rgb(201, 198, 194); 
+    float: right;
+}
+/* ######## FIM DO FOOTER ########### */
+
+/*############# RESPONSIVO #################*/
+/* Desktop  */
+@media screen and (max-width: 1500px) {
+    .texto_sobre{
+        padding: 0px;
+        font-size: 15pt;
+        text-align: center;
+        color: rgb(145, 143, 143);
+     }
+     .em_linha_sobre{
+        display: block;
+        text-align: justify;
+    }
+    .vertical{
+        margin-left: auto;
+        margin-right: auto;
+     }
+     .logo_sobre{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 35vw;
+    }
+     .fotos img{
+        padding-left: 0px;
+        width: 15vw;
+     }
+     .texto{
+        font-size: 13pt;
+        padding: 0px 30px 0px 30px;
+     }
+     .linha img{
+        width: 100%;
+     }
+ }
+ 
+ @media screen and (max-width: 1200px) {
+    .imagem{
+        width: 100%;
+        margin-left: 0px;
+    }
+    .topo ul{
+        margin-right: 0px;
+    }
+    .vertical{
+        margin-top: 50px;
+        padding-bottom: 50px;
+     }
+     .visao_valores img{
+        width: 25%;
+     }
+    .imagem_contato{
+        width: 100%;
+    }
+    .em_linha{
+        display: block;
+    }
+    .espaco{
+       padding: 50px;
+    }
+    .espaco_contato{
+        margin-left: 0px;
+    }
+ }
+
+ /* Fim Desktop  */
+ 
+ /* Tablets */
+ @media screen and (max-width: 768px) {
+    .logo{
+        width: 20vw;
+        margin-left: 0px;
+    }
+    .imagem{
+        height: 50vh;
+    }
+    .imagem_contato{
+        height: 50vh;
+    }
+    .texto{
+        display: none;
+     }
+     .fotos img{
+        width: 20vw;
+     }
+     .logo_sobre{
+        width: 50vw;
+    }
+    .w50{
+        width: 80%;
+    }
+    .w100{
+        display: block;
+        width: 65%;
+     }
+     .visao_valores img{
+        width: 30%;
+     }
+     .responsivo{
+        display: none;
+     }
+     .espaco{
+        padding: 70px;
+     }
+     .icone{
+        width: 13%;
+     }
+     .produto_bloco img{
+        height: 30vh;
+    }
+ }
+ 
+ /* Celular */
+ @media screen and (max-width: 576px) {
+    .topo{
+        height: 18vh;
+        border-bottom: 1px solid black;
+    }
+    .logo{
+        display: block;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .topo ul li a{
+        font-size: 13pt;
+        padding: 15px;
+    }
+    .imagem{
+        height: 30vh;
+    }
+    .imagem_contato{
+        height: 30vh;
+    }
+    .visao_valores{
+       display: block;
+       height: 60vh;
+    }
+    .visao_valores img{
+        width: 20%;
+        margin-bottom: 5px;
+     }
+     .linha_servicos{
+        width: 80%;
+    }
+     .espaco{
+        padding: 50px 100px 50px 100px;
+     }
+     .icone{
+        width: 15%;
+     }
+     .produto_bloco img{
+        height: 20vh;
+    }
+    .seta{
+        padding: 10px 10px 5px 10px;
+    }
+ }
+ 
+ /*################### FIM DO RESPONSIVO ###########*/
+
+ 
