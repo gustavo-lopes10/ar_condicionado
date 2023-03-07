@@ -16,7 +16,7 @@
     <a name="home"></a>
 <div class="em_linha">
     <div>
-        <img src="img/energia_solar.png" alt="" class="imagem">
+        <img src="img/energia_solar.png" alt="imagem energia solar" class="imagem">
     </div>
     <div class="vertical">
         <h1 class="titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto qui amet harum.</h1>
@@ -24,9 +24,9 @@
     </div>
 </div>
     <div class="visao_valores">
-        <div><img src="img/visao1.jpg" alt=""><p>VISÃO<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-        <div><img src="img/visao2.png" alt=""><p>VISÃO<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-        <div><img src="img/valores.jpg" alt=""><p>VALORES<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><img src="img/visao1.jpg" alt="visao"><p>VISÃO<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><img src="img/visao2.png" alt="visao"><p>VISÃO<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
+        <div><img src="img/valores.jpg" alt="valores"><p>VALORES<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
     </div><br><br>
 
 <main>
@@ -35,30 +35,30 @@
 <h1 class="titulo">Serviços</h1>
         <img src="ícones/linha.svg" alt="linha" class="icone_titulo"><br><br>
     <div class="linha_servicos fotos">
-        <div><img src="img/controle_qualidade.jpg" alt=""></div>
+        <div><img src="img/controle_qualidade.jpg" alt="controle de qualidade"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/venda.jpg" alt=""></div>
+        <div><img src="img/venda.jpg" alt="venda"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/transportes.jpg" alt=""></div>
+        <div><img src="img/transportes.jpg" alt="transportes"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
     </div>
     <div class="linha_servicos fotos">
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/instalacao.jpg" alt=""></div>
+        <div><img src="img/instalacao.jpg" alt="instalacao"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/conforto.jpg" alt=""></div>
+        <div><img src="img/conforto.jpg" alt="conforto"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/clientes.jpg" alt=""></div>
+        <div><img src="img/clientes.jpg" alt="clientes"></div>
     </div>
     <!-- fim de serviços -->
 
@@ -76,7 +76,7 @@
             vero blanditiis obcaecati praesentium? Eligendi delectus provident, saepe quibusdam iure voluptatem necessitatibus.</p>
     </div>
     <div class="vertical">
-        <img src="img/logo.png" alt="" class="logo_sobre">
+        <img src="img/logo.png" alt="logo" class="logo_sobre">
     </div>
 </div>
 <!-- fim de sobre nós -->
@@ -106,27 +106,27 @@
     <div class="linha w100" ng-show="arcondicionado"> 
         <div>
             <a href="produtos.php?id_produto=1">
-                 <img src="img/air-conditioner-1.jpg" alt="" >
+                 <img src="img/air-conditioner-1.jpg" alt="ar condicionado" >
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=2">
-                 <img src="img/air-conditioner-1.jpg" alt="">
+                 <img src="img/air-conditioner-1.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=3">
-                 <img src="img/air-conditioner-1.jpg" alt="">
+                 <img src="img/air-conditioner-1.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=4">
-                 <img src="img/air-conditioner-1.jpg" alt="">
+                 <img src="img/air-conditioner-1.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=5">
-                <img src="img/air-conditioner-1.jpg" alt="">
+                <img src="img/air-conditioner-1.jpg" alt="ar condicionado">
             </a>
         </div>
     </div>
@@ -134,27 +134,27 @@
     <div class="linha w100" ng-show="inverter">
         <div>
             <a href="produtos.php?id_produto=6">
-                <img src="img/air-condiotioner-2.jpg" alt="">
+                <img src="img/air-condiotioner-2.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=7">
-                <img src="img/air-condiotioner-2.jpg" alt="">
+                <img src="img/air-condiotioner-2.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=8">
-                <img src="img/air-condiotioner-2.jpg" alt="">
+                <img src="img/air-condiotioner-2.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=9">
-                <img src="img/air-condiotioner-2.jpg" alt="">
+                <img src="img/air-condiotioner-2.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=10">
-                <img src="img/air-condiotioner-2.jpg" alt="">
+                <img src="img/air-condiotioner-2.jpg" alt="ar condicionado">
             </a>
         </div>
     </div>
@@ -162,27 +162,27 @@
     <div class="linha w100" ng-show="multisplit">
         <div>
             <a href="produtos.php?id_produto=11">
-                <img src="img/air-conditioner-3.jpg" alt="">
+                <img src="img/air-conditioner-3.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=12">
-                <img src="img/air-conditioner-3.jpg" alt="">
+                <img src="img/air-conditioner-3.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=13">
-                <img src="img/air-conditioner-3.jpg" alt="">
+                <img src="img/air-conditioner-3.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=14">
-                <img src="img/air-conditioner-3.jpg" alt="">
+                <img src="img/air-conditioner-3.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=15">
-                <img src="img/air-conditioner-3.jpg" alt="">
+                <img src="img/air-conditioner-3.jpg" alt="ar condicionado">
             </a>
         </div>
     </div>
@@ -190,27 +190,27 @@
     <div class="linha w100" ng-show="energiasolar">
         <div>
             <a href="produtos.php?id_produto=16">
-                <img src="img/air-conditioner-4.jpg" alt="">
+                <img src="img/air-conditioner-4.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=17">
-                <img src="img/air-conditioner-4.jpg" alt="">
+                <img src="img/air-conditioner-4.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=18">
-                <img src="img/air-conditioner-4.jpg" alt="">
+                <img src="img/air-conditioner-4.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=19">
-                <img src="img/air-conditioner-4.jpg" alt="">
+                <img src="img/air-conditioner-4.jpg" alt="ar condicionado">
             </a>
         </div>
         <div>
             <a href="produtos.php?id_produto=20">
-                <img src="img/air-conditioner-4.jpg" alt="">
+                <img src="img/air-conditioner-4.jpg" alt="ar condicionado">
             </a>
         </div>
     </div>
@@ -259,10 +259,12 @@
     <a name="contato">&nbsp;</a>
     <?php include 'footer.html';?>
     <!-- fim do rodapé -->
-<div class="seta">
-    <a href="index.php">
-        <img src="img/seta.png" alt="">
-    </a>
-</div>
+
+    <!-- seta  -->
+    <div class="seta">
+        <a href="index.php">
+            <img src="img/seta.png" alt="seta de atualizar página">
+        </a>
+    </div>
 </body>
 </html>

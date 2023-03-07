@@ -40,8 +40,8 @@
 /* COMEÇO DO GERAL  */
 body{
     cursor: url(../img/cursor.cur), default;
-    margin-left: 0;
-    margin-right: 0;
+    margin: 0;
+    padding: 0;
 }
 
 .imagem{
@@ -145,6 +145,7 @@ body{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    padding: 0px 30px;
 }
 
 .linha{
@@ -240,8 +241,14 @@ body{
 }
 
 .em_linha_contato{
-    text-align: center;
+    display: flex;
+    text-align: left;
     margin-top: 20px;
+    margin-bottom: 80px;
+}
+
+.linha_contato{
+    padding-left: 200px;
 }
 
 input{
@@ -284,6 +291,7 @@ input{
     padding: 15px 15px 10px 15px;
     background-color: rgb(201, 198, 194); 
     float: right;
+    margin-right: 10px;
 }
 /* ######## FIM DO FOOTER ########### */
 
@@ -343,6 +351,9 @@ input{
     }
     .em_linha{
         display: block;
+    }
+    .linha_contato{
+        padding-left: 20px;
     }
     .espaco{
        padding: 50px;
@@ -435,6 +446,13 @@ input{
      .espaco{
         padding: 50px 100px 50px 100px;
      }
+     .em_linha_contato{
+        display: block;
+        text-align: left;
+    }
+    .linha_contato{
+        padding-left: 0px;
+    }
      .icone{
         width: 15%;
      }
