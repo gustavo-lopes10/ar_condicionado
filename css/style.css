@@ -53,14 +53,25 @@ body{
 .em_linha{
     display: flex;
 }
-  
+
+.fundo_cinza{
+    width: 100%;
+    background-color: #eaebec;
+}
+
 .em_linha_sobre{
-    width: 75vw;
+    width: 70vw;
     margin-left: auto;
     margin-right: auto;
 }
 
 .icone_texto{
+    display: block;
+    width: 28%;
+    margin: auto;
+}
+
+.icone_contato{
     display: block;
     width: 30%;
     margin: auto;
@@ -118,6 +129,15 @@ body{
     margin-right: auto;
 }
 
+.linha_servicos_embaixo{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 5px;
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
  .fotos img{
     padding-left: 10px;
     width: 12vw;
@@ -125,9 +145,9 @@ body{
  
  .texto_sobre{
     font-size: 20pt;
-    padding: 0px 60px;
+    padding: 0px 50px;
     text-align: center;
-    color: rgb(145, 143, 143);
+    color: rgb(105, 105, 105);
  }
 
  .em_linha_sobre{
@@ -145,7 +165,7 @@ body{
     text-align: center;
     margin-top: 0px;
     margin-bottom: 0px;
-    padding: 0px 30px;
+    padding: 0px 100px;
 }
 
 .linha{
@@ -178,58 +198,42 @@ body{
 /* ######## FIM DE PRODUTOS AO PASSAR O MOUSE ########### */
 
 /* ######## COMEÇO DE PRODUTOS ########### */
-.titulo_produto{
-    font-size: 20pt;
+.content{
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+    padding: 0 5%;
+}
+
+.left-side{
     width: 100%;
-    text-align: center;
-    color: #fff;
-    background-color: rgb(29, 96, 134);
 }
 
-.produto_bloco img{
-    display: block;
-    width: 50%;
-    height: 50vh;
+.left-side h1{
+    font-size: 50px;
+    color: aqua;
+}
+
+.left-side p{
+    text-align: justify;
+    padding-right: 10px;
+}
+
+.rigth-side{
+    width: 100%;
+}
+
+.rigth-side img{
+    width: 100%;
     border-radius: 10px;
-    border: 1px solid black;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.texto_produto{
-    font-size: 15pt;
-    padding: 50px 30px 0px 30px;
-    color: rgb(83, 83, 83);
- }
-
-.preco{
-    font-size: 15pt;
-    padding: 50px 30px 0px 30px;
-    color: rgb(83, 83, 83);
-}
-
-.botao_produto{
-    margin: 30px 0px 30px 200px;
-    padding: 15px;
-    border: 1px solid rgb(146, 146, 146);
-    background-color: rgb(29, 96, 134);
-    color: #fff;
-    border-radius: 5px;
-    font-size: 13pt;
-    transition: 0.5s;
-}
-
-.botao_produto:hover{
-    background-color: rgb(192, 5, 36);
+    margin-top: 45px;
 }
 /* ######## FIM DE PRODUTOS ########### */
 
 /* ######## COMEÇO DO FOOTER ########### */
 .espaco{
     display: block;
+    height: 75vh;
     width: 30vw;
-    border: 1px solid rgb(29, 96, 134);
-    border-radius: 10px;
     padding: 0px 30px;
     margin-left: auto;
     margin-right: auto;
@@ -237,7 +241,7 @@ body{
 
 .imagem_contato{
     width: 55vw;
-    height: 60vh;
+    height: 75vh;
 }
 
 .em_linha_contato{
@@ -254,6 +258,7 @@ body{
 input{
     border: 0 none;
     outline: 0;
+    background-color: #eceaea;
 }
 
 .input{
@@ -299,14 +304,14 @@ input{
 /* Desktop  */
 @media screen and (max-width: 1500px) {
     .texto_sobre{
-        padding: 0px;
         font-size: 15pt;
-        text-align: center;
-        color: rgb(145, 143, 143);
      }
      .em_linha_sobre{
         display: block;
         text-align: justify;
+    }
+    .icone_titulo_sobre{
+        width: 15%;
     }
     .vertical{
         margin-left: auto;
@@ -347,7 +352,7 @@ input{
         width: 25%;
      }
     .imagem_contato{
-        width: 100%;
+        display: none;
     }
     .em_linha{
         display: block;
@@ -361,6 +366,16 @@ input{
     .espaco_contato{
         margin-left: 0px;
     }
+    .content{
+        display: block;
+    }
+    .rigth-side img{
+        display: block;
+        width: 50%;
+        padding-top: 0px;
+        margin-left: auto;
+        margin-right: auto;
+    }
  }
 
  /* Fim Desktop  */
@@ -371,18 +386,41 @@ input{
         width: 20vw;
         margin-left: 0px;
     }
+    .linha_servicos_embaixo{
+        display: none;
+    }
+    .linha_servicos{
+        display: block;
+    }
     .imagem{
         height: 50vh;
     }
-    .imagem_contato{
-        height: 50vh;
-    }
-    .texto{
-        display: none;
-     }
      .fotos img{
-        width: 20vw;
+        display: block;
+        width: 30vw;
+        border-radius: 5px;
+        margin-left: auto;
+        margin-right: auto;
      }
+     .texto{
+        text-align: center;
+        margin: 10px 0px 30px 0px
+     }
+     .titulo{
+        padding: 0px;
+     }
+     .icone_contato{
+        width: 80%;
+    }
+     .icone_titulo{
+        width: 30%;
+    }
+    .em_linha_sobre{
+        width: 100%;
+    }
+     .icone_titulo_sobre{
+        width: 30%;
+    }
      .logo_sobre{
         width: 50vw;
     }
@@ -426,10 +464,10 @@ input{
         font-size: 13pt;
         padding: 15px;
     }
-    .imagem{
-        height: 30vh;
+    .linha_servicos{
+        width: 80%;
     }
-    .imagem_contato{
+    .imagem{
         height: 30vh;
     }
     .visao_valores{
@@ -440,8 +478,8 @@ input{
         width: 20%;
         margin-bottom: 5px;
      }
-     .linha_servicos{
-        width: 80%;
+    .logo_sobre{
+        width: 55vw;
     }
      .espaco{
         padding: 50px 100px 50px 100px;
@@ -461,6 +499,12 @@ input{
     }
     .seta{
         padding: 10px 10px 5px 10px;
+    }
+    .left-side h1{
+        font-size: 40px;
+    }
+    .rigth-side img{
+        width: 60%;
     }
  }
  

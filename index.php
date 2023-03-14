@@ -14,12 +14,12 @@
         <!-- fim do header  -->
     </div>
     <a name="home"></a>
-<div class="em_linha">
+<div class="em_linha fundo_cinza">
     <div>
         <img src="img/energia_solar.png" alt="imagem energia solar" class="imagem">
     </div>
     <div class="vertical">
-        <h1 class="titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto qui amet harum.</h1>
+        <h1 class="titulo">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
         <img src="ícones/linha.svg" alt="linha" class="icone_texto">
     </div>
 </div>
@@ -27,45 +27,45 @@
         <div><img src="img/visao1.jpg" alt="visao"><p>VISÃO<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
         <div><img src="img/visao2.png" alt="visao"><p>VISÃO<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
         <div><img src="img/valores.jpg" alt="valores"><p>VALORES<br>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div>
-    </div><br><br>
-
+    </div><br>
 <main>
 <!-- começo de serviços -->
     <a name="servicos">&nbsp;</a>
 <h1 class="titulo">Serviços</h1>
         <img src="ícones/linha.svg" alt="linha" class="icone_titulo"><br><br>
-    <div class="linha_servicos fotos">
-        <div><img src="img/controle_qualidade.jpg" alt="controle de qualidade"></div>
+    <div class="linha_servicos">
+        <div class="fotos"><img src="img/controle_qualidade.jpg" alt="controle de qualidade"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/venda.jpg" alt="venda"></div>
+        <div class="fotos"><img src="img/venda.jpg" alt="venda"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/transportes.jpg" alt="transportes"></div>
+        <div class="fotos"><img src="img/transportes.jpg" alt="transportes"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
     </div>
-    <div class="linha_servicos fotos">
+    <div class="linha_servicos_embaixo">
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/instalacao.jpg" alt="instalacao"></div>
-
-            <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
-
-        <div><img src="img/conforto.jpg" alt="conforto"></div>
+        <div class="fotos"><img src="img/instalacao.jpg" alt="instalacao"></div>
 
             <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
 
-        <div><img src="img/clientes.jpg" alt="clientes"></div>
-    </div>
+        <div class="fotos"><img src="img/conforto.jpg" alt="conforto"></div>
+
+            <div class="texto">Lorem ipsum dolor sit amet consectetur adipisicing elit.</div>
+
+        <div class="fotos"><img src="img/clientes.jpg" alt="clientes"></div>
+    </div><br><br><br>
     <!-- fim de serviços -->
 
     <!-- começo de sobre nós -->
-    <a name="sobre">&nbsp;</a>
-<div class="em_linha_sobre">
-    <div><br><br><br><br>
+    <a name="sobre"></a>
+<div class="fundo_cinza">
+    <div class="em_linha_sobre">
+    <div><br><br>
         <h1 class="titulo">Sobre nós</h1>
         <img src="ícones/linha.svg" alt="linha" class="icone_titulo_sobre">
         <p class="texto_sobre">Lorem ipsum dolor sit amet consectetur adipisicing elit. 
@@ -76,13 +76,14 @@
             vero blanditiis obcaecati praesentium? Eligendi delectus provident, saepe quibusdam iure voluptatem necessitatibus.</p>
     </div>
     <div class="vertical">
-        <img src="img/logo.png" alt="logo" class="logo_sobre">
+        <img src="img/logo_sobre.png" alt="logo" class="logo_sobre">
+    </div>
     </div>
 </div>
 <!-- fim de sobre nós -->
 
 <!-- produtos ao passar o mouse -->
-    <a name="produtos">&nbsp;</a>
+    <a name="produtos"></a>
 <div>
 <div><br>
     <h1 class="titulo">Produtos</h1>
@@ -256,7 +257,7 @@
 </div>
 </main>
     <!-- inclusão de rodapé  -->
-    <a name="contato">&nbsp;</a>
+    <a name="contato"></a>
     <?php include 'footer.html';?>
     <!-- fim do rodapé -->
 

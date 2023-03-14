@@ -11,6 +11,9 @@ $num_linhas = $lista->num_rows;
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,700;1,300&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Ar Condicionado</title>
 </head>
@@ -19,19 +22,13 @@ $num_linhas = $lista->num_rows;
      <?php include 'header.html';?>
         <!-- fim do header  -->
 <main>
-    <div>
-        <h3 class="titulo_produto"><strong><?php echo $row_produto['descri_produto']?></strong></h3>
-    </div>
-    <div class="produto_bloco">
-        <img src="img/<?php echo $row_produto['imagem_produto']?>">
-            <h3 class="texto_produto">
-                <?php echo $row_produto['resumo_produto']; ?>
-            </h3> 
-        <div class="em_linha">
-            <h3 class="preco">Valor do Produto - <?php echo "R$ ".number_format($row_produto['valor_produto'],2,) ?></h3>
-            <button class="botao_produto" role="button">
-                Comprar
-            </button>
+    <div class="content">
+        <div class="left-side">
+            <h1><strong><?php echo $row_produto['descri_produto']?></strong></h1>
+            <p><strong>Descrição do Produto:&nbsp;</strong> <?php echo $row_produto['resumo_produto']; ?></p>
+        </div>
+        <div class="rigth-side">
+            <img src="img/<?php echo $row_produto['imagem_produto']?>"> 
         </div>
     </div>
 </main>    
