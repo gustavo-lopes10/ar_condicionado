@@ -13,6 +13,4 @@ mysqli_set_charset($conn, $charset);
 } catch (\Throwable $th){
     echo "Atenção ERRO: ".$th;
 }
-
-//http://127.0.0.1/site-ar-condicionado/conn/connect.php
 ?>

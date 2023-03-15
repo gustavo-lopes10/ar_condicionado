@@ -25,7 +25,8 @@ $num_linhas = $lista->num_rows;
     <div class="content">
         <div class="left-side">
             <h1><strong><?php echo $row_produto['descri_produto']?></strong></h1>
-            <p><strong>Descrição do Produto:&nbsp;</strong> <?php echo $row_produto['resumo_produto']; ?></p>
+            <p><strong>Descrição do Produto:&nbsp;&nbsp;</strong><?php echo $row_produto['resumo_produto'];?></p>
+            <p><strong>Instalação:&nbsp;&nbsp;</strong>Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque, soluta facere ab ipsum fugiat et dicta eos quibusdam debitis beatae impedit cumque accusamus dolorem. Quisquam suscipit ad reiciendis. Perferendis, velit.</p>
         </div>
         <div class="rigth-side">
             <img src="img/<?php echo $row_produto['imagem_produto']?>"> 

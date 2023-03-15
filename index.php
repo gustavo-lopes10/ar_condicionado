@@ -263,7 +263,7 @@
 
     <!-- seta  -->
     <div class="seta">
-        <a href="index.php">
+        <a href="#" id="link-topo">
             <img src="img/seta.png" alt="seta de atualizar página">
         </a>
     </div>
